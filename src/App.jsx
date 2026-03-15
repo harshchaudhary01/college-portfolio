@@ -7,9 +7,11 @@ import University from "./components/University"
 import Achievements from "./components/Achievements"
 import Resume from "./components/Resume"
 import Footer from "./components/Footer"
+import Navigation from './components/Navigation'
 const App = () => {
   return (
     <>
+      <Navigation />
       <Hero />
       <Skills />
       <Projects />
