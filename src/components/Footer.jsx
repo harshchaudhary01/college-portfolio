@@ -8,10 +8,8 @@ export default function Footer() {
   };
 
   const socialLinks = [
-    { icon: <Github className="h-5 w-5" />, href: "https://github.com/Ayush-codemen", label: "GitHub" },
-    { icon: <Linkedin className="h-5 w-5" />, href: "https://linkedin.com/in/ayushkumarsingh", label: "LinkedIn" },
-    { icon: <Twitter className="h-5 w-5" />, href: "https://twitter.com", label: "Twitter" },
-    { icon: <Instagram className="h-5 w-5" />, href: "https://instagram.com", label: "Instagram" },
+    { icon: <Github className="h-5 w-5" />, href: "https://github.com/harshchaudhary01", label: "GitHub" },
+    { icon: <Linkedin className="h-5 w-5" />, href: "https://linkedin.com/in/harshchaudhary001", label: "LinkedIn" }
   ];
 
   const quickLinks = [
@@ -82,7 +80,7 @@ export default function Footer() {
               <div className="p-2 bg-emerald-500/10 rounded-lg group-hover:bg-emerald-500 transition-colors">
                 <Mail className="h-5 w-5 text-emerald-500 group-hover:text-white" />
               </div>
-              <span className="text-sm font-medium">contact@ayushkumarsingh.com</span>
+              <span className="text-sm font-medium">harshkumarchaudhary2005@gmail.com</span>
             </a>
           </div>
         </div>

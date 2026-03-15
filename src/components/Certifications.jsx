@@ -11,17 +11,17 @@ export default function Certifications() {
       verificationLink: "https://coursera.org/share/4a17e09c08109871ce11be9043a8499b",
     },
     {
-      name: "Prompt Engineering for ChatGPT",
+      name: "IBM: Introduction to Hardware & Operating System",
       issuer: "Coursera",
       date: "March 2023",
-      image: "/course2.PNG",
-      verificationLink: "https://coursera.org/share/15b3640663baf8cdf34c2e4801724d14",
+      image: "/coursera.png",
+      verificationLink: "https://coursera.org/verify/4AYDQW3M8WAU",
     },
     {
       name: "Cloud Computing",
       issuer: "NPTEL",
       date: "April 2025",
-      image: "/course3.jpg",
+      image: "/nptel.png",
       verificationLink: "https://www.coursera.org/verify/docker-kubernetes",
     },
     {

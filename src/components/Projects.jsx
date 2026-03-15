@@ -15,7 +15,7 @@ export default function Projects() {
     },
     {
       title: "AI-Powered Student Dropout Prediction System",
-      image: "/dropout-prediction.jpg", // Ensure this image is in your public folder
+      image: "/blog.png", // Ensure this image is in your public folder
       date: "Oct’ 25 – Nov’ 25",
       description:
         "A machine learning integration that predicts dropout risks using Logistic Regression and XGBoost. Features a React.js dashboard to visualize real-time risk assessment insights.",
@@ -25,7 +25,7 @@ export default function Projects() {
     },
     {
       title: "CodeStreak – Organize and Analyze DSA Problems",
-      image: "/codestreak.png", // Ensure this image is in your public folder
+      image: "/codestreak_img.png", // Ensure this image is in your public folder
       date: "Jul’ 25 – Sep’ 25",
       description:
         "A productivity platform for developers to track coding streaks and DSA progress. Built with a personalized dashboard and JWT authentication for secure revision management.",
