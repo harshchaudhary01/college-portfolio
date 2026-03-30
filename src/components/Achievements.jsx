@@ -1,33 +1,27 @@
 import React from 'react'
-import { Trophy, Award, Star, Music } from "lucide-react"
+import { Trophy, Award, Star, Globe } from "lucide-react"
 
 export default function Achievements() {
   const achievements = [
     {
-      title: "Spotify Popular Creator",
+      title: "Smart India Hackathon",
       description:
-        "Recognized as a Popular Creator on Spotify with over 100 Million views on my Panel.",
-      icon: <Music className="h-8 w-8 text-green-600" />,
+        "Participated in the internal round of the Smart India Hackathon, where I collaborated in a team to develop innovative solutions for real-world problem statements.",
+      icon: <Globe className="h-8 w-8 text-green-600" />,
       highlight: true,
     },
     {
-      title: "Runner-up in One India Competition",
-      description: "Secured 2nd Runner-Up in the prestigious One India Competition, representing Uttar Pradesh.",
-      icon: <Trophy className="h-8 w-8 text-amber-500" />,
+      title: "Full-Stack and AI Projects",
+      description: "Successfully building multiple full-stack and AI-based projects from scratch",
+      icon: <Star className="h-8 w-8 text-amber-500" />,
       highlight: false,
     },
     {
-      title: "AWS Community Builder",
-      description: "Selected as an AWS Community Builder for contributions to cloud computing knowledge sharing.",
+      title: "AI & Cloud Certifications",
+      description: "Earning industry-recognized certifications in AI and Cloud Computing",
       icon: <Award className="h-8 w-8 text-amber-500" />,
       highlight: false,
-    },
-    {
-      title: "Team Leadership Success",
-      description: "Led a team of 4 developers to deliver a complex project two weeks ahead of schedule.",
-      icon: <Star className="h-8 w-8 text-emerald-600" />,
-      highlight: true,
-    },
+    }
   ]
 
   return (

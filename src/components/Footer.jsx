@@ -74,7 +74,7 @@ export default function Footer() {
               Currently open for new opportunities and cloud-based collaborations.
             </p>
             <a 
-              href="mailto:contact@ayushkumarsingh.com" 
+              href="mailto:harshkumarchaudhary2005@gmail.com" 
               className="flex items-center gap-3 p-3 bg-slate-800/50 border border-slate-700 rounded-xl hover:border-emerald-500/50 transition-all group"
             >
               <div className="p-2 bg-emerald-500/10 rounded-lg group-hover:bg-emerald-500 transition-colors">
@@ -87,7 +87,7 @@ export default function Footer() {
 
         <div className="border-t border-slate-800 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-xs text-slate-500 text-center md:text-left">
-            © {new Date().getFullYear()} Ayush Kumar Singh. Built with React, Vite & Shadcn UI.
+            © {new Date().getFullYear()} Harsh Kumar Chaudhary. Built with React, Vite & Shadcn UI.
           </p>
           
           <Button 

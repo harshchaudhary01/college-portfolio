@@ -19,7 +19,7 @@ export default function Resume() {
             <div className="relative group aspect-[8.5/11] w-full bg-slate-100 flex items-center justify-center rounded-xl mb-8 overflow-hidden border border-slate-100 shadow-inner">
               <img
                 src="/harshresume.png"
-                alt="Ayush Kumar Singh Resume"
+                alt="Harsh Resume"
                 className="w-full h-full object-contain transition-transform duration-500 group-hover:scale-[1.02]"
                 onError={(e) => { e.target.src = "https://via.placeholder.com/800x1000?text=Resume+Preview" }}
               />
@@ -34,18 +34,10 @@ export default function Resume() {
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
               {/* Primary Download Button using Shadcn */}
-              <a href="/Align.jpg" download="Ayush_Kumar_Singh_Resume.jpg" className="w-full sm:w-auto">
+              <a href="/harshresume.png" download="Harsh_Kumar_Chaudhary_Resume.jpg" className="w-full sm:w-auto">
                 <Button className="w-full sm:w-auto gap-2 bg-purple-700 hover:bg-emerald-700 text-white font-bold py-6 px-8 rounded-xl transition-all shadow-lg hover:shadow-emerald-200">
                   <Download className="h-5 w-5" />
                   <span>Download Specialized CV</span>
-                </Button>
-              </a>
-
-              {/* Secondary View Button */}
-              <a href="/Align.jpg" target="_blank" rel="noreferrer" className="w-full sm:w-auto">
-                <Button variant="outline" className="w-full sm:w-auto gap-2 py-6 px-8 rounded-xl border-slate-300 text-slate-700 hover:bg-slate-50 font-bold">
-                  <FileText className="h-5 w-5" />
-                  <span>View Full Screen</span>
                 </Button>
               </a>
             </div>
